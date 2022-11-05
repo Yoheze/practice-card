@@ -1,0 +1,93 @@
+/* all */
+* {
+  margin: 0;
+  color: white;
+  font-family: sans-serif;
+}
+
+html {
+  background-color: black;
+}
+
+/* card */
+.card {
+  background-color: #23252c;
+  height: 1300px;
+  width: 600px;
+  margin: 30px auto;
+  border: 2px black solid;
+  border-radius: 25px;
+}
+
+/* card header */
+.myPhoto {
+  height: 800px;
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 25px 25px 0 0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.header-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+h2 {
+  color: orange;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* button */
+button {
+  color: black;
+  width: 80%;
+  margin: 10px 10% 30px 10%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px black solid;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+button img {
+  padding-right: 20px;
+  height: 20px;
+  width: 30px;
+}
+
+/* card body */
+h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 10px;
+  margin: 0 10%;
+}
+
+/* footer */
+.Footer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #161619;
+  padding: 20px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
